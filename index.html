@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Motivational Quotes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Motivational Quotes</h1>
+        <p>Click the button below to get a random quote and author:</p>
+        <button id="motivate-me">MOTIVATE ME</button>
+        <div id="quote"></div>
+        <h2>Share Your Own Quote</h2>
+        <form id="quote-form">
+            <label for="quote-input">Quote:</label>
+            <input type="text" id="quote-input" name="quote-input" required>
+            <label for="author-input">Author:</label>
+            <input type="text" id="author-input" name="author-input" required>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="saved-quote">
+            <h2>Your Last Quote</h2>
+            <button id="get-quote">Get Quote</button>
+            <div id="last-quote"></div>
+        </div>
+    </div>
+</body>
+</html>
